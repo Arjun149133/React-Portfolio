@@ -12,7 +12,7 @@ function Nav() {
   // }
   return (
     <>
-    <nav className=' bg-black flex p-5 relative'>
+    <nav className=' bg-black flex p-5 sticky top-0'>
         <div className=' flex gap-9 text-white ml-5'>
         <TbMessages className=' cursor-pointer' />
         <a href="https://github.com/arjun149133"><VscGithub className=' cursor-pointer'/></a>
